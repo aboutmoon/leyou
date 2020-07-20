@@ -25,7 +25,7 @@ public class GoodsController {
             @RequestParam(value = "key", required = false) String key,
             @RequestParam(value = "saleble", required = false) Boolean saleable,
             @RequestParam(value = "page", defaultValue = "1") Integer page,
-            @RequestParam(value = "key", defaultValue = "5") Integer rows
+            @RequestParam(value = "rows", defaultValue = "5") Integer rows
     ){
         PageResult<SpuBo> pageResult = this.goodsService.querySpuByPage(key, saleable, page, rows);
         if (pageResult == null || CollectionUtils.isEmpty(pageResult.getItems())){

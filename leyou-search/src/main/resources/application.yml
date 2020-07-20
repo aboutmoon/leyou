@@ -6,7 +6,9 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: localhost:9300
+      cluster-nodes: 172.31.28.162:9300
+  jackson:
+    default-property-inclusion: non_null
 eureka:
   client:
     service-url:

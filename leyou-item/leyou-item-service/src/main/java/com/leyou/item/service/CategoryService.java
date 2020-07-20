@@ -26,7 +26,7 @@ public class CategoryService {
     }
 
     public List<String> queryNamesByIds(List<Long> ids) {
-        List<Category> list = this.categoryMapper.selectByIds(ids);
+        List<Category> list = this.categoryMapper.selectByIdList(ids);
         List<String> names = new ArrayList<>();
         for (Category category : list){
             names.add(category.getName());
