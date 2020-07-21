@@ -1,4 +1,4 @@
-package com.leyou.goods.controller.client;
+package com.leyou.goods.client;
 
 import com.leyou.item.api.CategoryApi;
 import org.springframework.cloud.openfeign.FeignClient;
