@@ -9,9 +9,9 @@
         <module name="leyou-item-interface" />
         <module name="leyou-search" />
         <module name="leyou-gateway" />
-        <module name="leyou-registry" />
-        <module name="leyou-goods-web" />
         <module name="leyou-common" />
+        <module name="leyou-goods-web" />
+        <module name="leyou-registry" />
         <module name="leyou-item-service" />
         <module name="leyou-upload" />
       </profile>

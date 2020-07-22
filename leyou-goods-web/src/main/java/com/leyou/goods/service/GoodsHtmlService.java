@@ -40,4 +40,9 @@ public class GoodsHtmlService {
 
 
     }
+
+    public void deleteHtml(Long id) {
+        File file = new File("/home/hb/file/" + id + ".html");
+        file.deleteOnExit();
+    }
 }
